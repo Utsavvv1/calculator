@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Poke\'mon Red/Blue/Green/Yellow Edition Font';
+    src: url('PokmonRedBlueGreenYellowEditionFont.woff2') format('woff2'),
+        url('PokmonRedBlueGreenYellowEditionFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
