@@ -4,13 +4,13 @@ const display = document.getElementById('display');
 
 
 
-const buttonClickSound = new Audio('/sounds/SFX_PRESS_AB1.wav');
+const buttonClickSound = new Audio('/home/pxrple/repos/calculator/sounds/SFX_PRESS_AB1.wav');
 function changeImg(){
     if(state){
-        display.style.backgroundImage = "url(/images/pikachurun_00001.png)";
+        display.style.backgroundImage = "url(/home/pxrple/repos/calculator/images/pikachurun_00001.png)";
     }
     else{
-        display.style.backgroundImage = "url(/images/pikachurun_00000.png)";
+        display.style.backgroundImage = "url(/home/pxrple/repos/calculator/images/pikachurun_00000.png)";
     }
 }
 

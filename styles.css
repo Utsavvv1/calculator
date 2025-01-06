@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Poke\'mon Red/Blue/Green/Yellow Edition Font';
-    src: url('/fonts/PokmonRedBlueGreenYellowEditionFont.woff2') format('woff2'),
-        url('/fonts/PokmonRedBlueGreenYellowEditionFont.woff') format('woff');
+    src: url('/home/pxrple/repos/calculator/fonts/PokmonRedBlueGreenYellowEditionFont.woff2') format('woff2'),
+        url('/home/pxrple/repos/calculator/fonts/PokmonRedBlueGreenYellowEditionFont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -31,7 +31,7 @@ body {
         3px 3px 0px black,
         7px 7px 0px black;
     overflow: hidden; 
-    background-color: rgba(255, 255, 255, 0.5); 
+    background-color: rgba(255, 254, 175, 0.5); 
 }
 
 .calculator::after {
@@ -41,7 +41,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/images/pikachugif.gif');
+    background-image: url('/home/pxrple/repos/calculator/images/pikachugif.gif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -62,7 +62,7 @@ body {
     height: 60px;
     padding-bottom: 27px;
     font-size: 35px;
-    background-image: url(/images/pikachurun_00000.png);
+    background-image: url('/home/pxrple/repos/calculator/images/pikachurun_00000.png');
 }
 .title-bar {
     background-color: black;
