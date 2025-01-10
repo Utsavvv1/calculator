@@ -9,30 +9,30 @@
 <body>
     <div class="calculator">
         <div class="title-bar">Calculator</div>
-        <div class="display" id = "display">420</div>`
+        <div class = "updiv"><div class="display" id = "display"></div></div>
         <div class="keypad">
-            <button class="key clear">AC</button>
-            <button class="key" id="del">DEL</button>
+            <button class="key clear" id="clear" data-action="clear">AC</button>
+            <button class="key" id="delete" data-action="delete">DEL</button>
+            <button class="key" id="divide" data-action="/">/</button>
+            <button class="key" id="seven" data-action="7">7</button>
+            <button class="key" id="eight" data-action="8">8</button>
+            <button class="key" id="nine" data-action="9">9</button>
+            <button class="key" id="multiply" data-action="*">*</button>
 
-            <button class="key">/</button>
-            
-            <button class="key">7</button>
-            <button class="key">8</button>
-            <button class="key">9</button>
-            <button class="key">*</button>
-            
-            <button class="key">4</button>
-            <button class="key">5</button>
-            <button class="key">6</button>
-            <button class="key">-</button>
-            
-            <button class="key">1</button>
-            <button class="key">2</button>
-            <button class="key">3</button>
-            <button class="key">+</button>
-            <button class="key" id="zero">0</button>
-            <button class="key" id = "dot">.</button>
-            <button class="key" id="equal">=</button>
+            <button class="key" id="four" data-action="4">4</button>
+            <button class="key" id="five" data-action="5">5</button>
+            <button class="key" id="six" data-action="6">6</button>
+            <button class="key" id="subtract" data-action="-">-</button>
+
+            <button class="key" id="one" data-action="1">1</button>
+            <button class="key" id="two" data-action="2">2</button>
+            <button class="key" id="three" data-action="3">3</button>
+            <button class="key" id="add" data-action="+">+</button>
+
+            <button class="key" id="zero" data-action="0">0</button>
+            <button class="key" id="dot" data-action=".">.</button>
+            <button class="key" id="equal" data-action="=">=</button>
+
         </div>
     </div>
     <script src = "./script.js"></script>
